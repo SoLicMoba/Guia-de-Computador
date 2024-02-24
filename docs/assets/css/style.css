@@ -64,6 +64,7 @@ header nav {
 main .banner {
     background: url(../img/Banner.jpg) center / cover;
     height: calc(100vh - 110px);
+    position: relative;
 }
 
 main .banner-area {
@@ -72,7 +73,7 @@ main .banner-area {
 }
 
 main .banner-area-content {
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     color: #fff;
     display: flex;
@@ -97,7 +98,7 @@ main .banner-area-content #span2 {
 }
 
 .button {
-    margin-top: 100px;
+    margin-top: 50px;
     border: solid #fff;
     padding: 40px;
     border-radius: 40px;
@@ -111,7 +112,8 @@ main .banner-area-content a:hover {
 
 main .banner-area-content i {
     color: #777777;
-    margin-top: 250px;
+    position: absolute;
+    bottom: 20px;
 }
 
 main .area1 {
@@ -342,7 +344,7 @@ main .internet h2 {
 footer {
     text-align: center;
     padding: 50px;
-    font-size: clamp(1.5em, 1em + 1vw, 2em);
+    font-size: clamp(1em, 1em + 1vw, 1.2em);
 }
 
 footer p {
@@ -410,6 +412,14 @@ footer i {
 }
 
 @media (max-width: 425px) {
+
+    main .banner {
+        height: calc(50vh - 110px);
+    }
+    
+    main .banner-area {
+        height: calc(50vh - 110px);
+    }
 
     .hardwares-content-left #p-R::first-letter, .softwares-content-left #p-E::first-letter, .perifericos-content-left #p-S::first-letter {
         font-size: 25px;
@@ -484,7 +494,7 @@ footer i {
     }
 
     .hardwares h2, .softwares h2, .perifericos h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .hardwares p, .softwares p, .perifericos p {
@@ -536,7 +546,7 @@ footer i {
     }
 
     .internet .internet-area1 h2, .internet .internet-area2 h2, .internet .internet-area3 h2 {
-        font-size: 15px;
+        font-size: 20px;
         line-height: 20px;
     }
 
@@ -546,6 +556,7 @@ footer i {
     }
 
     footer {
-        font-size: 8px;
+        padding: 20px;
+        font-size: 12px;
     }
 }
