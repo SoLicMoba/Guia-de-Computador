@@ -414,11 +414,11 @@ footer i {
 @media (max-width: 425px) {
 
     main .banner {
-        height: calc(70vh - 110px);
+        height: calc(80vh - 110px);
     }
     
     main .banner-area {
-        height: calc(70vh - 110px);
+        height: calc(80vh - 110px);
     }
 
     .hardwares-content-left #p-R::first-letter, .softwares-content-left #p-E::first-letter, .perifericos-content-left #p-S::first-letter {
